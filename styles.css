@@ -108,8 +108,14 @@ body{
 .muted{color:var(--muted)}
 
 /* ---------- Avatar ---------- */
-.avatar{
-  width:112px;height:112px;border-radius:50%;object-fit:cover;box-shadow:var(--shadow)
+
+
+.avatar {
+  width: 300px;  
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 /* ---------- Icons (contact) ---------- */
