@@ -493,27 +493,14 @@ a {
   align-items: center;
 }
 
-.timeline-title img,
-.company-mark {
+.timeline-title img {
   width: 48px;
   height: 48px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
-}
-
-.timeline-title img {
   padding: 6px;
   object-fit: contain;
-}
-
-.company-mark {
-  display: grid;
-  place-items: center;
-  background: #f7d247;
-  color: #111;
-  font-size: 1.35rem;
-  font-weight: 850;
 }
 
 .timeline-title .entry-meta {
